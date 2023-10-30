@@ -5,7 +5,7 @@ let table=document.querySelector("table");
 	
 const getSum = () => {
 	let tr=document.createElement("tr");
-    // tr.setAttribute(id, "ans");
+    tr.setAttribute(id, "ans");
 	table.appendChild(tr);
 		let arr=document.querySelectorAll(".price");
 
